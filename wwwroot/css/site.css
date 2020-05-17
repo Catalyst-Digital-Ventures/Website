@@ -69,21 +69,4 @@ body {
   white-space: nowrap;
   line-height: 60px; /* Vertically center the text there */
 }
-/* User generated styles
--------------------------------------------------- */
 
-#cover{
-    height: 80vh;
-}
-
-#services {
-    height: 80vh;
-}
-
-#portfolio {
-    height: 80vh;
-}
-
-#about {
-    height: 80vh;
-}
