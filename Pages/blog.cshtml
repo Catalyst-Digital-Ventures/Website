@@ -1,32 +1,38 @@
 ﻿@page
 @model cdv_razor.Pages.blogModel
 @{
-    ViewData["Title"] = "blog";
+  ViewData["Title"] = "Catalyst Digital Ventures Blog";
+  ViewBag.Title = "Catalyst Digital Ventures Blog";
+  ViewBag.Description = "Build things, write about your ideas, tell the world. Repeat.";
 }
 
-
-
-  <div class="container">
-    <h1>Blog</h1>
-    <table style="width:100%">
-        <tr>
-            <td>
-                <a class="nav-link text-dark" asp-area="" asp-page="/2020/06/16/verify_program_hash">Verifying File Integrity</a>
-            </td>
-            <td>06.16.2020</td>
-        </tr>
-        <tr>
-            <td>
-                <a class="nav-link text-dark" asp-area="" asp-page="/2020/05/15/most_important_software">The most important piece of software available today</a>
-            </td>
-            <td>05.15.2020</td>
-        </tr>
-        <tr>
-            <td>
-                <a class="nav-link text-dark" asp-area="" asp-page="/2020/05/13/hello_internet">Hello</a>
-            </td>
-            <td>05.13.2020</td>
-        </tr>
-    </table>
-  </div>
+<div class="container">
+  <h1>Blog</h1>
+  <table style="width:100%">
+    <tr>
+      <td>
+        <a class="nav-link text-dark" asp-area="" asp-page="/2020/06/28/consider_vue">It's time to consider Vue.js</a>
+      </td>
+      <td>06.28.2020</td>
+    </tr>
+    <tr>
+      <td>
+        <a class="nav-link text-dark" asp-area="" asp-page="/2020/06/16/verify_program_hash">Verifying File Integrity</a>
+      </td>
+      <td>06.16.2020</td>
+    </tr>
+    <tr>
+      <td>
+        <a class="nav-link text-dark" asp-area="" asp-page="/2020/05/15/most_important_software">The most important piece of software available today</a>
+      </td>
+      <td>05.15.2020</td>
+    </tr>
+    <tr>
+      <td>
+        <a class="nav-link text-dark" asp-area="" asp-page="/2020/05/13/hello_internet">Hello</a>
+      </td>
+      <td>05.13.2020</td>
+    </tr>
+  </table>
+</div>
 
