@@ -77,3 +77,9 @@ body {
     height: 80vh;
     background-size: cover; /* Resize the background image to cover the entire container */
 }
+.blogPost {
+    place-content: center;
+}
+.blogPic {
+    max-height: 500px;
+}
