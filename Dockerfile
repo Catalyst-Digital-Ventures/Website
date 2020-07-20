@@ -5,6 +5,11 @@ WORKDIR /app
 EXPOSE 80
 EXPOSE 443
 
+RUN apk add python3 python3-dev build-base libressl-dev musl-dev libffi-dev
+RUN pip3 install pip --upgrade
+RUN pip3 install certbot-nginx
+RUN mkdir /etc/letsencrypt
+
 FROM mcr.microsoft.com/dotnet/core/sdk:3.1-buster AS build
 WORKDIR /src
 COPY ["cdv-razor.csproj", ""]
