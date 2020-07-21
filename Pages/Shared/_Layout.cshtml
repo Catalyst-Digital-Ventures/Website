@@ -6,8 +6,10 @@
     <meta name="description" content="@ViewBag.Description" />
     <meta name="title" content="@ViewBag.Title" />
     <title>@ViewData["Title"] - Catalyst Digital Ventures</title>
+    @RenderSection("metatags", required: false)
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" />
+
 </head>
 <body>
     <header>
