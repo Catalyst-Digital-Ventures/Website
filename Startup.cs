@@ -33,7 +33,7 @@ namespace cdv_razor
             services.AddSingleton<IDataAccess, SqlDb>();
 
             services.AddSingleton<IFoodData, FoodData>();
-            services.AddSingleton<IOrderData, OrderDapppppppppppppppppppppppppppppppppppppppppppppppta>();
+            services.AddSingleton<IOrderData, OrderData>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

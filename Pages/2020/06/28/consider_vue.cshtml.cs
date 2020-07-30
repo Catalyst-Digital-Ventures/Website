@@ -7,7 +7,7 @@ using Microsoft.AspNetCore.Mvc.RazorPages;
 
 namespace cdv_razor.Pages._2020._06._28
 {
-    public class consider_vueModel : PageModel
+    public class Consider_vueModel : PageModel
     {
         public void OnGet()
         {
