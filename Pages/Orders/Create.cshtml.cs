@@ -15,10 +15,12 @@ namespace cdv_razor.Pages.Orders
     {
         private readonly IFoodData foodData; 
         private readonly IOrderData orderData;
+
         public List<SelectListItem> FoodItems { get; set; }
 
         [BindProperty]
         public OrderModel   Order { get; set; }
+
         public CreateModel(IFoodData foodData, IOrderData orderData)
         {
             this.foodData = foodData;

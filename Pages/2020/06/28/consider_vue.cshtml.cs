@@ -5,9 +5,9 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 
-namespace cdv_razor.Pages._2020._06._28
+namespace cdv_razor.Pages
 {
-    public class Consider_vueModel : PageModel
+    public class consider_vueModel : PageModel
     {
         public void OnGet()
         {

@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 
-namespace cdv_razor.Pages._2020._05._14
+namespace cdv_razor.Pages
 {
     public class most_important_softwareModel : PageModel
     {

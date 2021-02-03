@@ -31,7 +31,6 @@ namespace cdv_razor
                 SqlConnectionName = "Default"
             });
             services.AddSingleton<IDataAccess, SqlDb>();
-
             services.AddSingleton<IFoodData, FoodData>();
             services.AddSingleton<IOrderData, OrderData>();
         }

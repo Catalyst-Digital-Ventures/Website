@@ -1,13 +1,13 @@
-﻿using System;
+﻿using Microsoft.AspNetCore.Mvc.RazorPages;
+using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Text;
 using System.Threading.Tasks;
-using Microsoft.AspNetCore.Mvc;
-using Microsoft.AspNetCore.Mvc.RazorPages;
 
 namespace cdv_razor.Pages
 {
-    public class hello_internetModel : PageModel
+    public class crypto_interestModel : PageModel
     {
         public void OnGet()
         {
@@ -15,3 +15,5 @@ namespace cdv_razor.Pages
         }
     }
 }
+
+

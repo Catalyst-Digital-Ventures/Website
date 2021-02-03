@@ -9,7 +9,7 @@
         <div asp-validation-summary="ModelOnly" class="text-danger"></div>
         <div class="form-group">
             <label asp-for="Order.FoodId" class="control-label"></label>
-            <select asp-for="Order.FoodId" class="form-control"> </select>
+            <select asp-for="Order.FoodId" asp-items="Model.FoodItems" class="form-control"> </select>
             <span asp-validation-for="Order.FoodId" class="text-danger"></span>
         </div>
         <div class="form-group">
@@ -26,3 +26,7 @@
             <input type="button" class="btn-primary" value="Order Food" />
         </div>
     </form>
+
+@section scripts {
+  @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
